@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Favorite Movie</title>
+    <!-- Javascript -->
+    <script>
+      let movieName = "Avatar";
+      let count = 1;
+      let guessedName = prompt("Enter the movie name:");
+      while (movieName != guessedName && guessedName != "quit") {
+        guessedName = prompt(" Your guess is wrong, so guess again:");
+        count++;
+      }
+      if (guessedName == "quit") {
+        alert(`You quit the game`);
+      } else {
+        alert(`You guessed in ${count} chances`);
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
