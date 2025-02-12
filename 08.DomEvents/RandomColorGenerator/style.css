@@ -1,0 +1,13 @@
+div {
+  height: 100px;
+  width: 500px;
+  border: 2px solid black;
+  margin-top: 20px;
+  padding: 10px;
+  color: rgba(0, 0, 0);
+}
+
+body {
+  text-align: center;
+  justify-items: center;
+}
