@@ -1,0 +1,31 @@
+body {
+  background-color: azure;
+  text-align: center;
+}
+#taskAdd,
+#taskAddBtn,
+.delete {
+  background-color: white;
+  color: #007fff;
+  border: 2px solid #005f9e;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#displayDiv {
+  margin: 30px;
+  background-color: rgb(157, 203, 210);
+  color: #000000;
+  border: 2px solid #005f9e;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
